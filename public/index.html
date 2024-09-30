@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="formEle">
+
+    <form action="/calc" method="POST">
+        <label for="first_num" class="eleMent">Number One</label>
+        <input type="number" id="first_num" name="first_num" class="eleMent">
+        <br>
+        <label for="second_num" class="eleMent">Number Two</label>
+        <input type="number" id="second_num" name="second_num" class="eleMent">
+        <br>
+        <select name="operator" value="operator" class="eleMent">
+            <option name="add" value="add" id="add">Addition</option>
+            <option name="sub" value="sub" id="sub">Subtraction</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit" class="eleMent">
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 50px; /* Adjust margin to fit the design */
+    font-size: 50px;
+    text-align: center;
+}
+
+form {
+    box-shadow: 0 0 20px rgba(12, 10, 10, 0.5);
+    max-width: 400px; /* Increased max-width */
+    padding: 20px; /* Reduced padding */
+    border-radius: 10px;
+    background-color: white;
+    margin: 0 auto; /* Center the form */
+}
+
+.formEle {
+    margin-top: 50px; /* Adjust for a balanced layout */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center items */
+}
+
+.eleMent {
+    margin: 10px 0; /* Consistent vertical spacing */
+    width: 100%; /* Make inputs take full width */
+}
+
+input[type="number"], select {
+    width: 100%; /* Full width for inputs and selects */
+    height: 30px; /* Slightly larger height */
+}
+
+input[type="submit"] {
+    background-color: rgb(6, 70, 6);
+    color: white;
+    border: none; /* Remove border for cleaner look */
+    border-radius: 5px;
+    height: 50px;
+    cursor: pointer; /* Add pointer for better UX */
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(5, 83, 25);
+}
+
+h1.rslt {
+    font-size: 150px;
+    margin-top: 200px;
+}
+
+a.rslt{
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    display: block; 
+    margin: 20px 0; 
+}
